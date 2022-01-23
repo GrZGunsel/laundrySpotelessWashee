@@ -1,0 +1,698 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, Segoe UI,
+    var(--nv-fallback-ff);
+}
+.navbar .container img {
+  height: 100px;
+}
+.border .border-5 {
+  width: 25%;
+}
+.laundryShowcase .container .image {
+  height: 50%;
+  width: 40%;
+}
+.laundryShowcase .container .image img {
+  height: 100%;
+}
+.laundryShowcase .container .image .button {
+  background-color: #20998f;
+}
+/* .container button {
+  width: 300px;
+  height: 50px;
+} */
+.spoteeWasheeSection {
+  background-color: #20998f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+.spoteeWasheeSection .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.laundaryShowcase-section {
+  background-color: #a2deda;
+  padding: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.laundaryShowcase-section .hero {
+  display: flex;
+  /* justify-content: space-between; */
+
+  gap: 2rem;
+  padding-bottom: 2.5rem;
+}
+.laundaryShowcase-section .hero img {
+  width: 90%;
+  object-fit: cover;
+}
+.laundaryShowcase-section .hero .main-content {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.laundaryShowcase-section .hero .main-content h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.laundaryShowcase-section .hero .main-content .line {
+  border: 1px solid black;
+  width: 50%;
+}
+.laundaryShowcase-section .hero .main-content .btn {
+  display: flex;
+  border: 1px solid black;
+  background: #20998f;
+  color: white;
+  width: 40%;
+  align-items: center;
+  gap: 10px;
+}
+.laundaryShowcase-section .hero .main-content svg {
+  color: white;
+  width: 20%;
+}
+.laundaryShowcase-section .hero .main-content h3 {
+  font-weight: 300;
+  font-size: 20px;
+}
+.ourService-section {
+  background-color: #20998f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 5%;
+}
+
+.ourService-section .overLap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.ourService-section .overLap p {
+  font-size: 1.5rem;
+}
+.ourService-section .hero {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  background-color: #4fb9b2;
+  gap: 35px;
+  padding: 45 px;
+  margin-top: 2rem;
+}
+#line1 {
+  width: 5%;
+  border: 1px solid black;
+}
+.ourService-section .hero .serviceList-laundry {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  gap: 20px;
+  width: 22%;
+}
+.ourService-section .hero .serviceList-laundry img {
+  width: 50%;
+}
+.ourService-section .hero .serviceList-laundry h2 {
+  font-size: 1.8rem;
+}
+.ourService-section .hero .serviceList-laundry p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.ourService-section .hero .serviceList-laundry .line3 {
+  border: 1px solid black;
+  width: 30%;
+}
+
+/* teamMember */
+.teamMember-section {
+  padding: 2.5%;
+  width: 100%;
+  margin-bottom: 6rem;
+}
+.teamMember-section .hero {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: start;
+  width: 100%;
+  /* gap: 30px; */
+  padding: 42px 42px 0 42px;
+}
+.teamMember-section .hero .teamMember-image {
+  width: 50%;
+}
+.teamMember-section .hero1 .teamMember-image {
+  width: 50%;
+}
+.teamMember-section .hero .teamMember-image img,
+.teamMember-section .hero1 .teamMember-image img {
+  width: 100%;
+}
+.teamMember-section .hero .teamMember-content {
+  width: 50%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 2%;
+}
+.teamMember-section .hero .teamMember-content p,
+.teamMember-section .hero1 .teamMember-content p {
+  font-size: 18px;
+  color: #393939;
+  font-weight: 400;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+.teamMember-section .hero1 {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 42px;
+}
+.teamMember-section .hero1 .teamMember-content {
+  width: 50%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 2%;
+}
+/* Order Online */
+.orderOnline-section {
+  width: 100%;
+  height: 40vh;
+  background-color: #555555;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orderOnline-section .hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.orderOnline-section .hero p {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+.orderOnline-section .hero .orderOnline-button .btn-number {
+  background-color: #4fb9b2;
+  color: #ffffff;
+  border-radius: 3px;
+  border: none;
+  border-width: 1px 1px 1px 1px;
+  font-size: 20px;
+  line-height: 1.6em;
+  font-weight: 600;
+  padding: 8px 12px;
+  transition: all 0.15s ease-in-out;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.orderOnline-section .hero .orderOnline-button .btn-order {
+  color: #555555;
+  border-radius: 3px;
+  border: none;
+  border-width: 1px 1px 1px 1px;
+  font-size: 20px;
+  line-height: 1.6em;
+  font-weight: 600;
+  padding: 8px 12px;
+  transition: all 0.15s ease-in-out;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Feature & Benefit */
+.featuresBenefit-section {
+  background-color: #a2deda;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5%;
+  gap: 40px;
+}
+
+.featuresBenefit-section .hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #555555;
+}
+.featuresBenefit-section .hero .featureBenefit-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.featuresBenefit-section .hero .featureBenefit-content .line1 {
+  border: 1px solid #555555;
+  width: 15%;
+}
+.featuresBenefit-section .hero .featureBenefit-content p {
+  font-size: 20px;
+}
+.featuresBenefit-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.featuresBenefit-section .container .featureBenefit-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 31%;
+  background-color: #4fb9b2;
+}
+.featuresBenefit-section .container .featureBenefit-list .featureBenefit-image {
+  width: 100%;
+  background-color: #4fb9b2;
+  display: flex;
+
+  padding: 3px 0 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+.featuresBenefit-section
+  .container
+  .featureBenefit-list
+  .featureBenefit-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  padding: 10%;
+  margin: 2%;
+}
+.featuresBenefit-section
+  .container
+  .featureBenefit-list
+  .featureBenefit-content
+  .line {
+  border: 1px solid #555555;
+  width: 30%;
+}
+.featuresBenefit-section
+  .container
+  .featureBenefit-list
+  .featureBenefit-content
+  p {
+  font-size: 20px;
+  text-align: center;
+}
+.featuresBenefit-section .btn-book {
+  background-color: #393939;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 12px;
+  transition: all 0.15s ease-in-out;
+
+  border: 1px solid transparent;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: normal;
+  font-family: inherit;
+  color: white;
+}
+/* Choose Us */
+.chooseUs-section {
+  width: 100%;
+  padding: 4%;
+  color: #555555;
+}
+.chooseUs-section .container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.chooseUs-section .container .chooseUs-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 47%;
+  gap: 20px;
+}
+.chooseUs-section .container .chooseUs-left .line {
+  border: 1px solid #555555;
+  width: 8%;
+}
+.chooseUs-section .container .chooseUs-left p {
+  font-size: 20px;
+  line-height: 1.6em;
+  text-align: center;
+}
+.chooseUs-section .container .chooseUs-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 47%;
+  gap: 4rem;
+}
+.chooseUs-section .container .chooseUs-right .chooseUs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+.chooseUs-section .container .chooseUs-right .chooseUs-list p {
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+/* Quality Service */
+.qualityService-section {
+  background-color: #20998f;
+  color: white;
+  width: 100%;
+  padding: 2.1%;
+}
+.qualityService-section .hero {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.qualityService-section .hero h2 {
+  font-weight: 700;
+}
+.qualityService-section .hero .btn-orderNow {
+  background-color: #393939;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 12px;
+  transition: all 0.15s ease-in-out;
+  width: 13rem;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: normal;
+  font-family: inherit;
+  color: white;
+}
+/* Price List */
+.priceList-section {
+  background-color: #a2deda;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5%;
+  gap: 40px;
+}
+
+.priceList-section .hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #555555;
+}
+.priceList-section .hero .priceList-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.priceList-section .hero .priceList-content .line {
+  border: 1px solid #555555;
+  width: 20%;
+}
+.priceList-section .hero .priceList-content p {
+  font-size: 20px;
+}
+.priceList-section .hero1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 4.5%;
+}
+.priceList-section .hero1 .priceList-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 31%;
+  gap: 1.3rem;
+}
+.priceList-section .hero1 .priceList-list .line1 {
+  border: 1px solid #555555;
+  width: 25%;
+}
+.priceList-section .hero1 .priceList-list h2 {
+  font-size: 1.8rem;
+}
+.priceList-section .hero1 .priceList-list p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  text-align: center;
+  width: 90%;
+}
+.priceList-section .btn-book {
+  background-color: #393939;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 12px;
+  transition: all 0.15s ease-in-out;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: normal;
+  font-family: inherit;
+  color: white;
+}
+
+/* Gurantee and Perks */
+.guranteePerk-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 3.5%;
+
+  /* gap: 40px; */
+}
+.guranteePerk-section .hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #555555;
+}
+.guranteePerk-section .hero h2 {
+  font-size: 36px;
+
+  line-height: 1.6em;
+  letter-spacing: 0px;
+}
+.guranteePerk-section .hero1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  padding-top: 3rem;
+}
+.guranteePerk-section .hero1 .guranteePerk-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.guranteePerk-section .hero1 .guranteePerk-left .guranteePerk-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.guranteePerk-section .hero1 .guranteePerk-left .guranteePerk-list svg {
+  width: 8%;
+}
+
+.guranteePerk-section .hero1 .guranteePerk-left .guranteePerk-list p {
+  line-height: 1.6em;
+  font-size: 20px;
+  letter-spacing: 0px;
+}
+.guranteePerk-section .hero1 .guranteePerk-right .guranteePerk-list p {
+  line-height: 1.6em;
+  font-size: 20px;
+  letter-spacing: 0px;
+}
+.guranteePerk-section .hero1 .guranteePerk-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.guranteePerk-section .hero1 .guranteePerk-right .guranteePerk-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.guranteePerk-section .hero1 .guranteePerk-right .guranteePerk-list svg {
+  width: 8%;
+}
+
+/* Call Now */
+.callNow-section {
+  background-color: #a2deda;
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: start;
+}
+.callNow-section .container {
+  display: flex;
+  justify-content: start;
+  /* align-items: center; */
+}
+.callNow-section .container .callNow-image {
+  width: 50%;
+}
+.callNow-section .container .callNow-image img {
+  width: 90%;
+}
+.callNow-section .container .callNow-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 3.5rem;
+  gap: 1.2rem;
+}
+
+.callNow-section .container .callNow-content .callNow-spotee {
+  border-radius: 20px;
+  background-color: #20998f;
+  width: 60%;
+  text-align: center;
+}
+.callNow-section .container .callNow-content .callNow-spotee a {
+  color: white;
+  text-decoration: none;
+  font-size: 2.2rem;
+}
+.callNow-section .container .callNow-content .callNow-button {
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.callNow-section .container .callNow-content .callNow-button .callNow-btn1 {
+  background-color: #20998f;
+  color: white;
+  font-weight: 400;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: #20998f;
+  border-radius: 3px;
+}
+.callNow-section .container .callNow-content .callNow-button .callNow-btn2 {
+  background-color: transparent;
+  color: black;
+  font-weight: 400;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 3px;
+}
+
+/* empty Section */
+.emptySection {
+  width: 100%;
+  height: 5rem;
+  background-color: white;
+}
+
+/* footer */
+.footer-section {
+  background-color: #555555;
+  height: 40vh;
+  color: white;
+}
+.footer-section .hero {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 4rem;
+  gap: 5rem;
+}
+.footer-section .hero .contactUs-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* responsive */
+
+/* large screen */
+@media All and (max-width: 1366px) {
+}
+
+@media All and (max-width: 1024px) {
+}
